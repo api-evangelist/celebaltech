@@ -1,21 +1,48 @@
 aid: celebaltech
-name: Celebaltech
-description: 'Celebaltech is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Celebal Technologies
+description: 'Celebal Technologies is an enterprise data and AI consulting and engineering
+  firm founded in 2016 and headquartered in Jaipur, India, with delivery across 13 countries
+  and more than 3,000 certified professionals. It partners with organizations on digital
+  transformation across Data Engineering, Generative AI, Machine Learning, Data Science,
+  cloud and database migration, SAP Extend & Innovate, app modernization, and enterprise
+  cloud integration, building on Microsoft Azure, Databricks, AWS, and SAP. Proprietary
+  products include Konverto AI, CT VMS, CT Passport, CT Vision, Eagle Eye IQ, PuFF, and
+  Chronify, serving manufacturing, retail & CPG, oil & gas, energy, BFSI, healthcare,
+  media & entertainment, public sector, ITES, and education. Surfaced as a portfolio
+  company of Norwest Venture Partners; no public API or developer surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/celebaltech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ctwebsite2025.blob.core.windows.net/media/celebalwebsite2025/assets_webp/common/images/ct-logo.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Consulting
+- Artificial Intelligence
+- Data Engineering
+- Machine Learning
+- Cloud
+- Generative AI
+- Databricks
+- Azure
+- Data Science
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://celebaltech.com
+- type: Blog
+  url: https://celebaltech.com/about-us/resources/blogs
+- type: PrivacyPolicy
+  url: https://celebaltech.com/privacy-policy
+- type: TermsOfService
+  url: https://celebaltech.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/celebaltech-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
