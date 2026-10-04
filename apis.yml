@@ -51,7 +51,7 @@ tags:
 - Consulting
 - Artificial Intelligence
 - Data Engineering
-- Machine-Learning
+- Machine Learning
 - Cloud
 - Generative AI
 - Databricks
@@ -68,6 +68,7 @@ tags_raw:
 - Databricks
 - Azure
 - Data Science
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
