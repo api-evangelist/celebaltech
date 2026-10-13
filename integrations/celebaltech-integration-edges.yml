@@ -1,0 +1,40 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Celebal%20Technologies%20Private%20Limited
+  listing_count: 52
+  apps:
+  - AI Tutor - Teaching Assistant
+  - Enterprise Data Platform
+  - CT Vision - Language and Vision-based Analytics Platform
+  - SAP Data Assessment Accelerator
+  - Automated Industry Data Model - Life Insurance
+  seller_name: Celebal Technologies Private Limited
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Celebal%20Technologies%20Private%20Limited.
+  listing_count: 1
+  apps:
+  - celebal managed application
+  seller_name: Celebal Technologies Private Limited.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
